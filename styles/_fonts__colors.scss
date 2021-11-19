@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap');
+
+$font-family-mochiy: 'Mochiy Pop P One', sans-serif;
+$font-family-indie: 'Indie Flower', cursive;
+$font-family-roboto: 'Roboto', sans-serif;
+$font-family-irish: 'Irish Grover', cursive;
+
+$yellow: #fdd835;
+.a{
+    padding: 12px 32px;
+    background-color: #333;
+    border: 2px solid $yellow;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+    font-family: $font-family-roboto;
+    text-decoration: none;
+}
+.h2{
+    font-size: 28px;
+    font-family: $font-family-irish;
+    color: $yellow;
+    margin-left: 30px;
+
+    span{
+        color: #fff;
+    }
+}
